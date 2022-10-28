@@ -1,0 +1,675 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title heading styling */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%;
+    margin: 0 auto; */
+    padding: 1rem;
+    color: rgb(22, 97, 157);
+}
+
+.heading-title{
+    font-size: 2rem;
+    margin-bottom: 10rem;
+}
+
+.hr-style{
+    color: gray;
+    margin-top: 2rem;
+    width: 40rem;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/*----------Billing content styling */
+
+.billing-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 50em;
+    color: rgb(22, 97, 157);
+}
+
+.billing-title{
+    margin-bottom: 3rem;
+    margin-right: 29rem;
+}
+
+
+/* Name Section Styling */
+
+.name-section{
+    display: flex;
+}
+
+label{
+    padding-left: .3rem;
+}
+
+
+
+.naming{
+    padding: 0 1rem 0 1rem;
+}
+input{
+    margin-top: .5rem;
+}
+
+.fname-content{
+    padding: .5rem 9rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+/*-----User Name Styling----------------- */
+
+.username{
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+.username-section{
+    padding: .5rem 30rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+/* -----Email Styling Content------------------- */
+.email-content{
+    padding: 1rem 2rem;
+}
+
+.email-section{
+    padding: .5rem 30rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+/* ------Address Styling Content------------- */
+
+
+.address{
+    padding: 1rem 3rem;
+}
+
+.one{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.address-section{
+    padding: .5rem 30rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+/* -----------Country Content Styling */
+
+.country-content{
+    display: flex;
+}
+
+.country-option{
+    padding: .5rem 8rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+    background-color: #fff;
+    margin-top: .5rem;
+}
+.state-option{
+    padding: .5rem 6rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+    background-color: #fff;
+    margin-top: .5rem;
+}
+
+.pcode-section{
+    padding: .5rem .5rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+.country-style{
+    padding: 0 .5rem;
+}
+
+/* ------Checkbox content styling */
+.checkbox-one{
+
+    margin-top: 1.5rem;
+    margin-right: 15.5rem;
+}
+
+/* ----------Payment content styling */
+
+.payment-section{
+    margin-top: 1rem;
+    margin-right: 33rem;
+}
+.payment-title{
+    margin-top: 1rem;
+}
+
+/* ----Card content styling */
+.card-section{
+    display: flex;
+}
+
+.card-style{
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.card-content{
+    padding: .5rem 9rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+.card-info, p{
+    color: gray;
+    margin-top: .8rem;
+    font-size: 14px;
+}
+
+/* ---Back of the card content styling------- */
+
+.backcard-section{
+    display: flex;
+    margin-right: 8rem;
+}
+.cardback{
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.cardback-content{
+    padding: .5rem 5rem .5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+
+/* ---Button content styling */
+
+.button-section{
+    margin-top: 2rem;
+}
+
+.btn{
+    padding: 1rem 15rem 1rem 15rem;
+    background-color: rgb(29, 139, 234);
+    color: #fff;
+    border: 2px solid rgb(37, 143, 236) ;
+    border-radius: 13px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: rgb(29, 139, 234);
+    padding: 1rem 15.5rem 1rem 15.5rem;
+    transition: .3s ease-in;
+}
+
+/* Cart content styling */
+
+.your-cart{
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-name{
+    border-top: 1px solid rgb(29, 139, 234);
+    border-right: 1px solid rgb(29, 139, 234);
+    border-left: 1px solid rgb(29, 139, 234);
+    
+    width: 25rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.product-item{
+    border-radius: 10px 10px 0 0;
+}
+
+.product-five{
+    border-bottom: 1px solid rgb(29, 139, 234);
+    border-radius: 0 0 10px 10px;
+}
+.product-description{
+    margin-top: .5rem;
+}
+
+.product-one{
+    display: flex;
+}
+.product-price{
+    color: green;
+}
+.cart-content{
+    font-size: 2rem;
+}
+.cart-info{
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(29, 139, 234);
+}
+.cart-number{
+    font-size: 2rem;
+    background-color: green;
+    border-radius: 100%;
+    width: 15%;
+    text-align: center;
+    color: #fff;
+}
+.product-title{
+    margin-right: auto;
+}
+.prmo-section{
+    padding: .8rem 2.2rem .8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 197, 197);
+}
+.promo-btn{
+    padding: .8rem 2rem;
+    background-color: rgb(29, 139, 234);
+    border-radius: 12px;
+   
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.promo-code{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.promo-btn:hover{
+    color:rgb(29, 139, 234);
+    background-color: #fff;
+    border: 2px solid rgb(29, 139, 234);
+    padding: .8rem 2.5rem;
+    transition: .3s ease-in;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+    .your-cart{
+        margin: 0 auto;
+    }
+
+    .billing-title{
+        margin-right: 29rem;
+    }
+
+    .hr-style{
+        color: gray;
+        margin-top: 2rem;
+        width: 40rem;
+    }
+    
+    .address-section{
+        padding: .5rem 30rem .5rem 1rem;
+    }
+
+    .email-section{
+        padding: .5rem 30rem .5rem 1rem;
+    }
+
+    .username-section{
+        padding: .5rem 30rem .5rem 1rem;
+    }
+
+    .fname-content{
+        padding: .5rem 9rem .5rem 1rem;
+    }
+
+    .country-option{
+        padding: .5rem 7.5rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .state-option{
+        padding: .5rem 5.7rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .pcode-section{
+        padding: .5rem 1rem .5rem 1rem;
+    }
+
+    .checkbox-one{
+
+        margin-top: 1rem;
+        margin-right: 15rem;
+    }
+    .payment-section{
+        margin-top: 1rem;
+        margin-right: 33rem;
+    }
+
+    .card-content{
+        padding: .5rem 9rem .5rem 1rem;
+    }
+    .backcard-section{
+        margin-right: 8rem;
+    }
+
+    .btn{
+        padding: 1rem 15rem 1rem 15rem;
+    }
+
+    .btn:hover{
+        padding: 1rem 15.5rem 1rem 15.5rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 1150px) {
+
+    .your-cart{
+        padding-right: 5rem;
+    }
+
+    .billing-title{
+        margin-right: 20rem;
+        margin-top: 2.5rem;
+    }
+
+    .hr-style{
+        width: 30rem;
+    }
+    .billing-address{
+        margin: 0 auto;
+    }
+    
+    .address-section{
+        padding: .5rem 20rem .5rem 1rem;
+
+    }
+
+    .email-section{
+        padding: .5rem 20rem .5rem 1rem;
+
+    }
+
+    .username-section{
+        padding: .5rem 20rem .5rem 1rem;
+
+    }
+
+    .fname-content{
+        padding: .5rem 4rem .5rem 1rem;
+    }
+    .country-content{
+        flex-direction: column;
+    }
+
+    .country-option{
+        padding: .5rem 22.5rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .state-option{
+        padding: .5rem 24rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .pcode-section{
+        padding: .5rem 20rem .5rem 1rem;
+    }
+
+    .checkbox-one{
+
+        margin-top: 1rem;
+        margin-right: 5.5rem;
+    }
+
+    .payment-section{
+        margin-top: 1rem;
+        margin-right: 23rem;
+    }
+
+    .card-content{
+        padding: .5rem 4rem .5rem 1rem;
+    }
+
+    .backcard-section{
+        margin-right: 0;
+    }
+    .cardback-content{
+        padding: .5rem 4rem .5rem 1rem;
+    }
+
+    .btn{
+        padding: 1rem 10rem 1rem 10rem;
+    }
+
+    .btn:hover{
+        padding: 1rem 10.5rem 1rem 10.5rem;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .your-cart{
+        width: 60%;
+        padding-right: 0;
+        margin-bottom: 10rem;
+    }
+
+    .promo-code{
+        text-align: center;
+    }
+
+    .product-name{
+        width: 20rem;
+    }
+
+    .cart-info{
+        width: 20rem;
+    }
+    .inside-cart{
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+        .main-content{
+        flex-direction: column-reverse;
+    }
+    .inside-cart{
+        margin: 0 auto;
+    }
+    .your-cart{
+        width: 100%;
+    }
+
+    .product-name{
+        width: 30rem;
+    }
+
+    .cart-info{
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .billing-address{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .product-name{
+        width: 25em;
+        margin: 0 auto;
+    }
+
+    .your-cart{
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 10rem;
+    }
+    .billing-title{
+        margin-right: 9.5rem;
+    }
+
+    .billing-address{
+        width: 100%;
+    }
+
+    .hr-style{
+        width: 20rem;
+    }
+    
+    .address-section{
+        padding: .5rem 10rem .5rem 1rem;
+        border-radius: 8px;
+        border: 1px solid rgb(201, 197, 197);
+    }
+
+    .email-section{
+        padding: .5rem 10rem .5rem 1rem;
+
+    }
+
+    .username-section{
+        padding: .5rem 10rem .5rem 1rem;
+
+    }
+    .fname-content{
+        padding: .5rem 10rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .lname{
+        margin-bottom: 0;
+    }
+    .name-section{
+        flex-direction: column;
+    }
+
+    .first-name{
+        margin-top: 1rem;
+    }
+
+    .country-content{
+        flex-direction: column;
+    }
+    .country-option{
+        padding: .5rem 12.9rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .state-option{
+        padding: .5rem 14.3rem .5rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .pcode-section{
+        padding: .5rem 10.3rem .5rem 1rem;
+    }
+    .checkbox-one{
+        font-size: 12px;
+    }
+    .checkbox-one{
+        padding-top: 2rem;
+        margin: 0 auto;
+    }
+    .payment-section{
+        margin-top: 1rem;
+        margin-right: 13.2rem;
+        font-size: 14px;
+    }
+
+    .card-section{
+        flex-direction: column;
+    }
+
+    .card-content{
+        padding: .5rem 10rem .5rem 1rem;
+    }
+
+    .backcard-section{
+       flex-direction: column;
+    }
+
+    .cardback-content{
+        padding: .5rem 10rem .5rem 1rem;
+    }
+
+    .btn{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
+    .btn:hover{
+        padding: 1rem 5.5rem 1rem 5.5rem;
+    }
+
+    .cart-info{
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .your-cart{
+        width: 100%;
+    }
+    .billing-address{
+        width: 100%;
+    }
+
+    .billing-title{
+        margin-right: 0;
+    }
+
+    .btn{
+        padding: 1rem 4rem 1rem 4rem;
+    }
+
+    .btn:hover{
+        padding: 1rem 4.5rem 1rem 4.5rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .product-name{
+        width: 20em;
+    }
+    .cart-info{
+        width: 20em;
+    }
+}
+
+

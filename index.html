@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="form-heading">
+            <h1 class="heading-title">Checkout form</h1>
+        </div>
+
+    </section>
+    <main class="main-content">
+        <div class="billing-address">
+            <h2 class="billing-title">Billing Address</h2>
+            <div class="name-section">
+                <div class="first-name naming">
+                    <label for="fname">First name</label> <br>
+                    <input class="fname-content" type="text" name="name" id="fname" placeholder="Enter your first name" required>
+                </div>
+                <div class="last-name naming">
+                    <label for="lname">Last Name</label> <br>
+                    <input class="fname-content lname" type="text" name="name" id="lname" placeholder="Enter your last name" required>
+                </div>
+    
+            </div>
+
+            <div class="username">
+                <div class="user naming">
+                    <label for="username">Username</label> <br>
+                    <input class="username-section" type="text" name="name" id="username" placeholder="Username" required>
+                </div>
+            </div>
+
+            <div class="email-content">
+                <div class="email naming">
+                    <label for="email">Email <span class="email-optional">(Optional)</span></label> <br>
+                    <input class="email-section" type="email" name="email" id="email" placeholder="you@example.com" required>
+                </div>
+            </div>
+
+            <div class="address-content">
+                <div class="address one">
+                    <label for="address">Address</label> <br>
+                    <input class="address-section" type="text" name="address" id="address" placeholder="1234 Main St" required>
+                </div>
+            </div>
+
+            <div class="address-two-content">
+                <div class="address two">
+                    <label for="addresstwo">Address 2 <span class="address-optional">(Optional)</span></label> <br>
+                    <input class="address-section" type="text" name="addresstwo" id="addresstwo" placeholder="Apartment or suite">
+                </div>
+            </div>
+
+            <div class="country-content">
+                <div class="country-name country-style">
+                    <label for="country">Country</label> <br>
+                    <select class="country-option" name="country" id="country">
+                        <option value="choose">Choose..</option>
+                        <option value="united">United States</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <div class="country-state country-style">
+                    <label for="state">State</label> <br>
+                    <select class="state-option" name="state" id="state">
+                        <option value="choose">Choose..</option>
+                        <option value="alberta">Alberta</option>
+                        <option value="california">California</option>
+                    </select>
+                </div>
+
+                <div class="pcode-number country-style">
+                    <label for="pcode">Postal Code</label> <br>
+                    <input class="pcode-section" type="text" name="pcode" id="pcode">
+                </div>
+            </div>
+            <hr class="hr-style">
+            <div class="checkbox-one">
+                <div class="checkbox-content">
+                    <input type="checkbox">
+                    <label>Shipping address is the same as my billing address</label> <br>
+                    <input type="checkbox">
+                    <label>Save this information for next time</label>
+                </div>
+ 
+            </div>
+            <hr class="hr-style">
+
+            <div class="payment-content">
+                <h2 class="payment-title">Payment</h2>
+                <div class="payment-section">
+                    <input type="radio" name="credit">
+                    <label >Credit card</label> <br>
+                    <input type="radio" name="credit">
+                    <label >Debit card</label> <br>
+                    <input type="radio" name="credit">
+                    <label>Paypal</label>
+                </div>
+            </div>
+
+            <div class="card-section">
+                <div class="name-card card-style">
+                    <label for="ncard">Name on card</label> <br>
+                    <input class="card-content" type="text" name="ncard" id="ncard"> <br>
+                    <p class="card-info">Full name as displayed on card</p>
+                </div>
+                <div class="credit-card card-style">
+                    <label for="credit">Credit card number</label> <br>
+                    <input class="card-content" type="text" name="credit" id="credit">
+                    
+                </div>
+    
+            </div>
+
+            <div class="backcard-section">
+                <div class="cardback">
+                    <label for="expiration">Expiration</label> <br>
+                    <input class="cardback-content" type="text" name="expiration" id="expiration">
+                </div>
+                <div class="cardback">
+                    <label for="cvv">CVV</label> <br>
+                    <input class="cardback-content" type="text" name="cvv" id="cvv">
+                </div>
+                
+            </div>
+            <hr class="hr-style">
+
+            <div class="button-section">
+                <button class="btn" type="submit">Continue to checkout</button>
+            </div>
+
+        </div>
+
+  
+
+        <div class="your-cart">
+            <div class="inside-cart">
+                <div class="cart-info">
+                    <span class="cart-content">Your cart</span>
+                    <span class="cart-number">3</span>
+                </div>
+                <div class="product-name  product-item">
+                    <div class="product-one">
+                        <span class="product-title">Product name</span>
+                        <span class="product-price">$12</span>
+                    </div>
+                    <p class="product-description">Brief description</p>
+                </div>
+                <div class="product-name product-two">
+                    <div class="product-one">
+                        <span class="product-title">Second product</span>
+                        <span class="product-price">$8</span>
+                    </div>
+                    <p class="product-description">Brief description</p>
+                </div>
+                <div class="product-name product-three">
+                    <div class="product-one">
+                        <span class="product-title">Third item</span>
+                        <span class="product-price">$5</span>
+                    </div>
+                    <p class="product-description">Brief description</p>
+                </div>
+                <div class="product-name product-four">
+                    <div class="product-one">
+                        <span class="product-title">Promo code</span>
+                        <span class="product-price">-$5</span>
+                    </div>
+                    <p class="product-description">Examplecode</p>
+                </div>
+                <div class="product-name product-five">
+                    <div class="product-one">
+                        <span class="product-title">Total (USD)</span>
+                        <span class="product-price"><strong>$20</strong></span>
+                    </div>
+                </div>
+                <div class="promo-code">
+                    <input class="prmo-section" type="text" name="promo" placeholder="Promo code">
+                    <button class="promo-btn" type="submit">Redeem</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>
